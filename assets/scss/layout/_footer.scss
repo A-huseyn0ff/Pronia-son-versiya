@@ -1,0 +1,103 @@
+footer{
+    padding-top: 100px;
+    .footer-area{
+        background-image: url('https://htmldemo.net/pronia/pronia/assets/images/footer/bg/1-1920x465.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    .footer-container{
+        padding-top: 50px;
+        // padding-bottom: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .row{
+            display: flex;
+            // gap: 20px;  
+            .col-social-media{
+                height: 277px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .footer-widget-item{
+                    display: grid;
+                    gap: 40px;
+                    .footer-widget-title{
+                        font-size: 20px;
+                    }
+                    .footer-widget-logo-list{
+                        display: flex;
+                        gap: 20px;
+                        li{
+                            border: 1px solid;
+                        padding: 10px;
+                        }
+                        li:hover{
+                            border: none;
+                            background-color: #8dba87;
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .col{
+                height: 277px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .footer-widget-item{
+                    display: grid;
+                    gap: 20px;
+                    .footer-widget-title{
+                        font-size: 20px;
+                    }
+                    .footer-widget-logo-list{
+                        display: flex;
+                        gap: 20px;
+                        li{
+                            border: 1px solid;
+                        padding: 10px;
+                        }
+                    }
+                }
+            }
+            .col-help{
+                height: 277px;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                .footer-widget-item{
+                    display: grid;
+                    gap: 26px;
+                    .footer-widget-title{
+                        font-size: 20px;
+                    }
+                    .number{
+                        text-decoration: none;
+                        color: black;
+                        font-size: 24px;
+                      }
+                }
+            }
+        }
+    }
+    .footer-copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        p{
+            color: #8dba87;
+            .fa-heart{
+                color: red;
+            }
+        }
+        span{
+            width: 1220px;
+            border-top:1px solid #8dba87;
+        }
+    }
+    }
+}
